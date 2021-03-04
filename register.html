@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Student Registartion</title>
+<link href="style/home.css" rel="stylesheet">
+</head>
+<body>
+<div class="cd" style="background-image: url('image/image4.png');">
+<div class="body">
+
+<div class="container">
+	<div class="header">
+		<h2>Student  Registartion</h2>
+		<div class="b">
+		<a href="home.html">Home</a>
+		</div>
+	</div>
+	<div class="form-main">
+		<div class="form-body">
+			<form id="form" class="form">
+				<div class="form-control">
+					<label for="txtFirstName">First Name</label>
+					<input type="text" placeholder="First Name" id="txtFirstName" required="required" />
+					
+				</div>
+				<div class="form-control">
+					<label for="txtLastName">Last Name</label>
+					<input type="text" placeholder="Last Name" id="txtLastName" required="required"/>
+					
+				</div>
+				<div class="form-control">
+					<label for="txtLastName">Age</label>
+					<input type="number" placeholder="Age" id="txtage" required="required"/>					
+				</div>
+				<div class="form-control">
+					<label for="email">Email</label>
+					<input type="email" placeholder="abc@gmail.com" id="email" required="required"/>
+					
+				</div>
+				<div class="form-control">
+					<label for="txtPhoneNo">Phone</label>
+					<input type="tel" name="txtPhoneNo"id="txtPhoneNo"  pattern="^\d{10}$" placeholder="Phone" required="required"/>
+					
+				</div>
+				<div class="radio-btn">
+					<label>Gender: </label>
+					<input type="radio" id="rdMale" name="rdGender" value="male" required="required">
+					<label>Male</label>
+					<input type="radio" id="rdFemale" name="rdGender" value="female" required="required">
+					<label>Female</label>
+					
+				</div>
+				<button>Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
