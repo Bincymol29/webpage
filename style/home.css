@@ -1,0 +1,203 @@
+.d{
+	height:685px;
+}
+h1{
+	text-align:center;
+	font-size:35px;
+	color:Navy;
+}
+.h4{
+	font-size:24px;
+	text-align:center;
+}
+.abc{
+	font-size:17px;
+	margin-left:320px;
+margin-right:360px;
+text-align:center;
+color:DarkSlateGrey;
+}
+p{
+	color:FFFAF0;
+	font-size:55px;
+	font-style:bold;
+	font-family:Times New Roman;
+	text-align:center;
+	padding:55px;
+}
+.b{
+	text-align:center;
+}
+.bkclr{
+	background-color:Snow;
+}
+.btn{min-width:150px;}
+
+/*--------------------login page-----------------*/
+.c {	
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;	
+}
+.container{
+align-content: center;	
+
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 350px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+.ab h3{
+color: white;
+text-align:center;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+border-color: coral;
+}
+
+input[type=submit]{
+	background-color:DodgerBlue;
+    border:none;
+	color:white;
+	border-radius: 4px;
+	padding: 10px 29px;
+	text-align:center;
+	font-size:14px;
+	margin: 4px 5px;
+	cursor: pointer;
+}
+
+/*.btn{
+	margin:20px 15px;
+	padding-top:15px 32px;
+	display:inline-block;
+}*/
+
+.link{
+	text-align:center;
+}
+
+.links{
+color: white;
+}
+/*--------registartion-------*/
+* {
+	box-sizing: border-box;
+}
+a{
+	color:DodgerBlue;
+}
+.body{
+	
+	font-family: Arial, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+.form-main{
+	background-color: rgba(0,0,0,0.5) !important;
+	width: 370px;
+	float: left;
+}
+
+.header {
+	background-color: rgba(0,0,0,0.5) !important;
+	padding: 20px 30px;
+	width: 370px;
+	
+}
+
+.header h2 {
+	margin: 0;
+	text-align:center;
+	color:white;
+	font-size:25px;
+}
+
+.form {
+	padding: 15px 40px;
+}
+
+.form-control {
+	margin-bottom: 5px;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+	color:white;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form button {
+	background-color: DodgerBlue;
+	border: 2px solid 8B0000;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 13px;
+	width: 100%;
+}
+
+/*form radio buttons*/
+.radio-btn input{
+	margin-left: 7px;
+}
+.radio-btn label{
+	color:white;
+}
+
+.b{
+	text-align:center;
+}
+
+.footer{
+	background:LightGray;
+}
+.copyright{
+	text-align:center;
+}
+.credits{
+	text-align:center;
+}
